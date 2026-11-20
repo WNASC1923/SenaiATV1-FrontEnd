@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mania</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="icon" type="image/png" href="imagens/icone/google_games_icon_131690.png">
+
+</head>
+
+<body>
+
+    <header>
+        
+        <h1>Game Mania</h1>
+
+        <button id="botao-menu">☰ Menu</button>
+
+        <nav id="menu">
+            <a href="#inicio">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#novidades">Novidades</a>
+            <a href="#galeria">Galeria</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="inicio" class="banner">
+            <h2>Bem-vindo à Game Mania!</h2>
+            <p>Tudo o que você precisa para jogar melhor.</p>
+            <a class="botao" href="#produtos">Ver produtos</a>
+        </section>
+
+        <section id="produtos">
+            <h2>Produtos em destaque</h2>
+
+            <label for="filtro">Escolha uma categoria:</label>
+            <select id="filtro">
+                <option value="todos">Todos</option>
+                <option value="teclado">Teclados</option>
+                <option value="mouse">Mouse</option>
+                <option value="controle">Controles</option>
+            </select>
+
+            <div class="produtos">
+
+                <article class="produto" data-categoria="controle">
+
+                    <img src="imagens/destaque/produto1.jpg" alt="controle">
+                    <h3>Controle Gamer</h3>
+                    <p>R$ 199,90</p>
+
+                </article>
+
+                <article class="produto" data-categoria="mouse">
+
+                    <img src="imagens/destaque/produto2.jpg" alt="mouse">
+                    <h3>Mouse Gamer</h3>
+                    <p>R$ 149,90</p>
+
+                </article>
+
+                <article class="produto" data-categoria="teclado">
+
+                    <img src="imagens/destaque/produto3.jpg" alt="teclado">
+                    <h3>Teclado Gamer</h3>
+                    <p>R$ 129,90</p>
+
+                </article>
+
+            </div>
+        </section>
+        
+        <section id="novidades">
+
+            <h2>Novidades</h2>
+            <p>Confira os novos lançamentos para deixar sua experiência gamer ainda melhor!</p>
+
+            <div class="lista-novidades">
+
+                <article class="novidade">
+                    
+                    <img src="imagens/novidades/novidade1.jpg" alt="console1">
+                    <h3>Xbox One</h3>
+                    <p>R$ 1820,99</p>
+
+                </article>
+
+                <article class="novidade">
+                    
+                    <img src="imagens/novidades/novidade2.jpg" alt="console2">
+                    <h3>Playstation 4</h3>
+                    <p>R$ 1980,99</p>
+
+                </article>
+
+            </div>
+        </section>
+
+        <section id="galeria">
+
+            <h2>Galeria</h2>
+
+            <div class="galeria">
+                <img src="imagens/galeria/galeria1.jpg" alt="">
+                <img src="imagens/galeria/galeria2.jpg" alt="">
+                <img src="imagens/galeria/galeria3.jpg" alt="">
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Game Mania | 2026</p>
+    </footer>
+
+</body>
+</html>
