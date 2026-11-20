@@ -1,7 +1,8 @@
 ## indentificação
-Aluno: William Wallace N. de Azevedo  
+Aluno: William Wallace Nascimento de Azevedo  
 Cursos: Frontend, Desenvolvedor Junior  
 Email: wn992233@gmail.com  
+GitHub: github.com/WNASC1923
 
 ## Introdução
 Projeto de uma loja gamer fictícia feito com HTML, CSS e JavaScript.
